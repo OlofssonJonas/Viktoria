@@ -1,7 +1,7 @@
 
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,6 @@ form{
 }
 
 .pyjamas {
-    /* background-color: green; */
     background-image: url('./images/pj.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +50,6 @@ form{
 }
 
 .ballons{
-    /* background-color: red; */
      background-image: url('./images/jungfru.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +58,6 @@ form{
 }
 
 .images{
-    /* background-color: blue;  */
     display: flex;
     justify-content: space-between;
     height: 50px;
@@ -96,7 +93,9 @@ form{
         /***FOR MOBILE***/
 @media only screen and (max-width: 500px)  {
 
-
+h1{
+    width: 100vw;
+}
     .images{
         display: flex;
         flex-direction: column-reverse;
