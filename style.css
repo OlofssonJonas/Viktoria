@@ -52,7 +52,7 @@ input, textarea, select {
 }
 
 .pyjamas {
-    background-image: url('./images/Bakgrunden\ för\ disco\ togs\ bort.png');
+    background-image: url('./images/discoWithoutBack.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vh;
