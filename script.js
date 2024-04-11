@@ -44,7 +44,7 @@ function countDownTo(dateString) {
         //console.log(`${daysLeft}d ${hoursLeft}h ${minutesLeft}m ${secondsLeft}s`)
     }, 1000)
 }
-countDownTo('2023-04-23T13:00:00')
+countDownTo('2024-05-11T11:00:00')
 
 
 //post to mongodb

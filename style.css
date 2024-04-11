@@ -1,11 +1,16 @@
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-style: italic;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:linear-gradient(-45deg, pink, rgb(9, 9, 247))
+    background:linear-gradient(-45deg, pink, rgb(9, 9, 247));
+    height: 110vh;
 }
 
 h1{
@@ -13,24 +18,29 @@ h1{
     text-shadow: 10px 10px 10px  black;
 }
 
-h4{
-   font-family: fantasy;
+label {
+    color: whitesmoke
 }
 
-span{
-    color: blue;
-    font-size: 25px;
-    font-style: italic;
+h4{
+   font-family: fantasy;
+   font-weight: bold;
 }
+
 li{
     list-style-type: none;
-    font-family: cursive;
+    color: gainsboro;
+
 }
 
 form{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+input, textarea, select {
+    border-radius: 5px;
 }
 
 .formel{
@@ -42,11 +52,12 @@ form{
 }
 
 .pyjamas {
-    background-image: url('./images/pj.png');
+    background-image: url('./images/Bakgrunden\ för\ kula\ togs\ bort.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vh;
     height: 50vw;
+    margin-top: 120px;
 }
 
 .ballons{
@@ -63,15 +74,10 @@ form{
     height: 50px;
 }
 
-.game{
-    display: flex
-}
-
 .time{
     width: 190px;
     height: 60px;
     font-size: 30px;
-    /* background-color: white; */
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
@@ -81,12 +87,18 @@ form{
 
 .changeBtn {
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .answear {
     font-family: cursive;
+    color: white;
+    font-weight: bold;
 }
 
+.answearBtn {
+    border-radius: 10px;
+}
 
 
      
