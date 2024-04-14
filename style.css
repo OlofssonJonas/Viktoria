@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
 }
 body {
-  font-style: italic;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +16,7 @@ body {
 h1 {
   color: pink;
   text-shadow: 10px 10px 10px black;
+  font-style: italic;
 }
 
 label {
@@ -24,12 +26,16 @@ label {
 h4 {
   font-family: fantasy;
   font-weight: bold;
+  color: whitesmoke;
+}
+
+ul {
+    margin: 10px;
 }
 
 li {
   list-style-type: none;
   color: gainsboro;
-  margin: auto;
 }
 
 form {
@@ -127,6 +133,6 @@ select {
   }
 
   .content {
-    margin: 10px;
+    padding: 10px;
   }
 }
