@@ -17,6 +17,7 @@ h1 {
   color: pink;
   text-shadow: 10px 10px 10px black;
   font-style: italic;
+  text-align: center;
 }
 
 label {
@@ -114,6 +115,7 @@ select {
   }
   h1 {
     width: 100vw;
+    font-size: 25px;
   }
   .images {
     display: flex;
